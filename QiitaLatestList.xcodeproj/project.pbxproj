@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		347A1F1018900DF10088296E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347A1F0F18900DF10088296E /* Foundation.framework */; };
+		347A1F1218900DF10088296E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347A1F1118900DF10088296E /* CoreGraphics.framework */; };
+		347A1F1418900DF10088296E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347A1F1318900DF10088296E /* UIKit.framework */; };
+		347A1F1A18900DF10088296E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 347A1F1818900DF10088296E /* InfoPlist.strings */; };
+		347A1F1C18900DF10088296E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 347A1F1B18900DF10088296E /* main.m */; };
+		347A1F2018900DF10088296E /* QLLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 347A1F1F18900DF10088296E /* QLLAppDelegate.m */; };
+		347A1F2318900DF10088296E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347A1F2118900DF10088296E /* Main.storyboard */; };
+		347A1F2618900DF10088296E /* QLLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 347A1F2518900DF10088296E /* QLLViewController.m */; };
+		347A1F2818900DF10088296E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 347A1F2718900DF10088296E /* Images.xcassets */; };
+		347A1F2F18900DF10088296E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347A1F2E18900DF10088296E /* XCTest.framework */; };
+		347A1F3018900DF10088296E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347A1F0F18900DF10088296E /* Foundation.framework */; };
+		347A1F3118900DF10088296E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347A1F1318900DF10088296E /* UIKit.framework */; };
+		347A1F3918900DF10088296E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 347A1F3718900DF10088296E /* InfoPlist.strings */; };
+		347A1F3B18900DF10088296E /* QiitaLatestListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 347A1F3A18900DF10088296E /* QiitaLatestListTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		347A1F3218900DF10088296E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 347A1F0418900DF10088296E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 347A1F0B18900DF10088296E;
+			remoteInfo = QiitaLatestList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		347A1F0C18900DF10088296E /* QiitaLatestList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiitaLatestList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		347A1F0F18900DF10088296E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		347A1F1118900DF10088296E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		347A1F1318900DF10088296E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		347A1F1718900DF10088296E /* QiitaLatestList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QiitaLatestList-Info.plist"; sourceTree = "<group>"; };
+		347A1F1918900DF10088296E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		347A1F1B18900DF10088296E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		347A1F1D18900DF10088296E /* QiitaLatestList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QiitaLatestList-Prefix.pch"; sourceTree = "<group>"; };
+		347A1F1E18900DF10088296E /* QLLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLLAppDelegate.h; sourceTree = "<group>"; };
+		347A1F1F18900DF10088296E /* QLLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLLAppDelegate.m; sourceTree = "<group>"; };
+		347A1F2218900DF10088296E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		347A1F2418900DF10088296E /* QLLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLLViewController.h; sourceTree = "<group>"; };
+		347A1F2518900DF10088296E /* QLLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLLViewController.m; sourceTree = "<group>"; };
+		347A1F2718900DF10088296E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		347A1F2D18900DF10088296E /* QiitaLatestListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiitaLatestListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		347A1F2E18900DF10088296E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		347A1F3618900DF10088296E /* QiitaLatestListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QiitaLatestListTests-Info.plist"; sourceTree = "<group>"; };
+		347A1F3818900DF10088296E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		347A1F3A18900DF10088296E /* QiitaLatestListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiitaLatestListTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		347A1F0918900DF10088296E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347A1F1218900DF10088296E /* CoreGraphics.framework in Frameworks */,
+				347A1F1418900DF10088296E /* UIKit.framework in Frameworks */,
+				347A1F1018900DF10088296E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347A1F2A18900DF10088296E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347A1F2F18900DF10088296E /* XCTest.framework in Frameworks */,
+				347A1F3118900DF10088296E /* UIKit.framework in Frameworks */,
+				347A1F3018900DF10088296E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		347A1F0318900DF10088296E = {
+			isa = PBXGroup;
+			children = (
+				347A1F1518900DF10088296E /* QiitaLatestList */,
+				347A1F3418900DF10088296E /* QiitaLatestListTests */,
+				347A1F0E18900DF10088296E /* Frameworks */,
+				347A1F0D18900DF10088296E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		347A1F0D18900DF10088296E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				347A1F0C18900DF10088296E /* QiitaLatestList.app */,
+				347A1F2D18900DF10088296E /* QiitaLatestListTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		347A1F0E18900DF10088296E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				347A1F0F18900DF10088296E /* Foundation.framework */,
+				347A1F1118900DF10088296E /* CoreGraphics.framework */,
+				347A1F1318900DF10088296E /* UIKit.framework */,
+				347A1F2E18900DF10088296E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		347A1F1518900DF10088296E /* QiitaLatestList */ = {
+			isa = PBXGroup;
+			children = (
+				347A1F1E18900DF10088296E /* QLLAppDelegate.h */,
+				347A1F1F18900DF10088296E /* QLLAppDelegate.m */,
+				347A1F2118900DF10088296E /* Main.storyboard */,
+				347A1F2418900DF10088296E /* QLLViewController.h */,
+				347A1F2518900DF10088296E /* QLLViewController.m */,
+				347A1F2718900DF10088296E /* Images.xcassets */,
+				347A1F1618900DF10088296E /* Supporting Files */,
+			);
+			path = QiitaLatestList;
+			sourceTree = "<group>";
+		};
+		347A1F1618900DF10088296E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				347A1F1718900DF10088296E /* QiitaLatestList-Info.plist */,
+				347A1F1818900DF10088296E /* InfoPlist.strings */,
+				347A1F1B18900DF10088296E /* main.m */,
+				347A1F1D18900DF10088296E /* QiitaLatestList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		347A1F3418900DF10088296E /* QiitaLatestListTests */ = {
+			isa = PBXGroup;
+			children = (
+				347A1F3A18900DF10088296E /* QiitaLatestListTests.m */,
+				347A1F3518900DF10088296E /* Supporting Files */,
+			);
+			path = QiitaLatestListTests;
+			sourceTree = "<group>";
+		};
+		347A1F3518900DF10088296E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				347A1F3618900DF10088296E /* QiitaLatestListTests-Info.plist */,
+				347A1F3718900DF10088296E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		347A1F0B18900DF10088296E /* QiitaLatestList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347A1F3E18900DF10088296E /* Build configuration list for PBXNativeTarget "QiitaLatestList" */;
+			buildPhases = (
+				347A1F0818900DF10088296E /* Sources */,
+				347A1F0918900DF10088296E /* Frameworks */,
+				347A1F0A18900DF10088296E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiitaLatestList;
+			productName = QiitaLatestList;
+			productReference = 347A1F0C18900DF10088296E /* QiitaLatestList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		347A1F2C18900DF10088296E /* QiitaLatestListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347A1F4118900DF10088296E /* Build configuration list for PBXNativeTarget "QiitaLatestListTests" */;
+			buildPhases = (
+				347A1F2918900DF10088296E /* Sources */,
+				347A1F2A18900DF10088296E /* Frameworks */,
+				347A1F2B18900DF10088296E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				347A1F3318900DF10088296E /* PBXTargetDependency */,
+			);
+			name = QiitaLatestListTests;
+			productName = QiitaLatestListTests;
+			productReference = 347A1F2D18900DF10088296E /* QiitaLatestListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		347A1F0418900DF10088296E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QLL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Shoichi Matsuda";
+				TargetAttributes = {
+					347A1F2C18900DF10088296E = {
+						TestTargetID = 347A1F0B18900DF10088296E;
+					};
+				};
+			};
+			buildConfigurationList = 347A1F0718900DF10088296E /* Build configuration list for PBXProject "QiitaLatestList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 347A1F0318900DF10088296E;
+			productRefGroup = 347A1F0D18900DF10088296E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				347A1F0B18900DF10088296E /* QiitaLatestList */,
+				347A1F2C18900DF10088296E /* QiitaLatestListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		347A1F0A18900DF10088296E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347A1F2818900DF10088296E /* Images.xcassets in Resources */,
+				347A1F1A18900DF10088296E /* InfoPlist.strings in Resources */,
+				347A1F2318900DF10088296E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347A1F2B18900DF10088296E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347A1F3918900DF10088296E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		347A1F0818900DF10088296E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347A1F2018900DF10088296E /* QLLAppDelegate.m in Sources */,
+				347A1F2618900DF10088296E /* QLLViewController.m in Sources */,
+				347A1F1C18900DF10088296E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347A1F2918900DF10088296E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347A1F3B18900DF10088296E /* QiitaLatestListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		347A1F3318900DF10088296E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 347A1F0B18900DF10088296E /* QiitaLatestList */;
+			targetProxy = 347A1F3218900DF10088296E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		347A1F1818900DF10088296E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				347A1F1918900DF10088296E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		347A1F2118900DF10088296E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				347A1F2218900DF10088296E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		347A1F3718900DF10088296E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				347A1F3818900DF10088296E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		347A1F3C18900DF10088296E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		347A1F3D18900DF10088296E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		347A1F3F18900DF10088296E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QiitaLatestList/QiitaLatestList-Prefix.pch";
+				INFOPLIST_FILE = "QiitaLatestList/QiitaLatestList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		347A1F4018900DF10088296E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QiitaLatestList/QiitaLatestList-Prefix.pch";
+				INFOPLIST_FILE = "QiitaLatestList/QiitaLatestList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		347A1F4218900DF10088296E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QiitaLatestList.app/QiitaLatestList";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QiitaLatestList/QiitaLatestList-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QiitaLatestListTests/QiitaLatestListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		347A1F4318900DF10088296E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QiitaLatestList.app/QiitaLatestList";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QiitaLatestList/QiitaLatestList-Prefix.pch";
+				INFOPLIST_FILE = "QiitaLatestListTests/QiitaLatestListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		347A1F0718900DF10088296E /* Build configuration list for PBXProject "QiitaLatestList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347A1F3C18900DF10088296E /* Debug */,
+				347A1F3D18900DF10088296E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		347A1F3E18900DF10088296E /* Build configuration list for PBXNativeTarget "QiitaLatestList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347A1F3F18900DF10088296E /* Debug */,
+				347A1F4018900DF10088296E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		347A1F4118900DF10088296E /* Build configuration list for PBXNativeTarget "QiitaLatestListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347A1F4218900DF10088296E /* Debug */,
+				347A1F4318900DF10088296E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 347A1F0418900DF10088296E /* Project object */;
+}
